@@ -9,8 +9,9 @@ input {
     margin-bottom: 0.5em;
     width: 100%;
     padding: 10px;
+    border: 2px solid blueviolet;
     box-sizing: border-box;
-
+    
 }
 
 .btn {
@@ -39,6 +40,6 @@ input {
 }
 
 .btn-secondary:hover {
-    outline: 2px solid blueviolet;
     color: blueviolet;
+    box-shadow: 1px 1px 5px blueviolet;
 }
