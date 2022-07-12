@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "version": "1.0",
+    "action": {
+        "default-icon": "icon/leadTracker.png",
+        "default_popup": "index.html"
+    },
+    "permissions": ["tabs"]
+}
