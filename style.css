@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0.65em;
+    min-width: 400px;
+}
+
+input {
+    display: block;
+    margin-bottom: 0.5em;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.btn {
+    border-radius: 10px;
+    border: 0;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    margin-right: 1em;
+}
+
+.btn-primary {
+    box-shadow: 5px 5px 10px rgba(120, 120, 120, 0.3);
+    background-color: blueviolet ;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    color: blueviolet;
+    background-color: #fff;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: blueviolet;
+    box-shadow: 5px 5px 10px rgba(120, 120, 120, 0.3);
+}
+
+.btn-secondary:hover {
+    outline: 2px solid blueviolet;
+    color: blueviolet;
+}
